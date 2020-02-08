@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto|Roboto+Slab&display=swap');
+@import "http://fonts.fontstorage.com/import/droidserif.css";
+
+@font-face {
+    font-family: 'WisdomScript';
+    src: local(WisdomScript), url(../fonts/WisdomScript/Wisdom_Script_AJ.otf);
+}
+
+@font-face {
+    font-family: 'DroidSerif';
+    src: local(DroidSerif), url(../fonts/DroidSerif/DroidSerif-Italic.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    width: 1200px;
+}
+
+.links {
+    width: 517px;
+    padding: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.links li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    position: relative;
+}
+
+.links li a:hover {
+    color: #fed136;
+}
+
+.logo {
+    width: 271px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo a {
+    font-family: 'WisdomScript', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #fed136;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-head-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DroidSerif', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 75px;
+}
+
+.services-head_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;
+    margin-bottom: 120px;
+}
+
+.text    {
+    text-align: center;
+    font-family: 'RobotoSlab', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+    margin: 0px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.img_block {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+.contact {
+    width: 100%;
+    height: 560px;
+    background-color: #222222;
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.block-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 978px;
+    height: 204px;
+}
+
+.block-form-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 204px;
+}
+
+.block-form-left-side input {
+    height: 50px;
+    width: 455px;
+    border-radius: 5px;
+    color: #bbbbbb;
+    font-size: 14px;  
+}
+
+.block-form-right-side textarea {
+    width: 455px;
+    height: 189px;
+    border-radius: 5px;
+    color: #bbbbbb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px 0px 0px 20px;
+    border: none;
+}
+
+.block-form input {
+    color: #bbbbbb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+    border: none;
+}
+
+.button-to-send-mesage {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button-to-send-mesage button {
+    background-color: #fed136;
+    border: 1px solid #fed136;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    width: 240px;
+    height: 65px;
+    border-radius: 3px;
+    margin-top: 30px;
+    cursor: pointer
+}
